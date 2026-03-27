@@ -60,14 +60,15 @@ Python_Advance_Complete_Tutorial_Part_2/
 
 # 🧠 Recursion Flowchart 📊
 
+> ⚠️ If diagram is not visible, view it here:
+> https://mermaid.live
+
 ```mermaid
 flowchart TD
     A[Start Function] --> B{Base Condition?}
     B -- Yes --> C[Return Result]
     B -- No --> D[Recursive Call]
     D --> B
-```
-
 ---
 
 # 🧩 Example Visualization 🎯
