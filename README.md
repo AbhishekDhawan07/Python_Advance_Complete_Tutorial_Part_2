@@ -57,19 +57,17 @@ Python_Advance_Complete_Tutorial_Part_2/
 - 🔀 Merge Sort
 
 ---
-
 # 🧠 Recursion Flowchart 📊
 
-> ⚠️ If diagram is not visible, view it here:
-> https://mermaid.live
-
-```mermaid
-flowchart TD
-    A[Start Function] --> B{Base Condition?}
-    B -- Yes --> C[Return Result]
-    B -- No --> D[Recursive Call]
-    D --> B
----
+Start Function
+      ↓
+Base Condition?
+   ↙      ↘
+ Yes       No
+ ↓         ↓
+Return   Recursive Call
+             ↓
+        (Repeat)
 
 # 🧩 Example Visualization 🎯
 
