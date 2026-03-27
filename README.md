@@ -57,38 +57,30 @@ Python_Advance_Complete_Tutorial_Part_2/
 - 🔀 Merge Sort
 
 ---
+
 # 🧠 Recursion Flowchart 📊
 
-
-![Recursion Flowchart](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Recursion-example.svg/512px-Recursion-example.svg.png)
-
----
-
-## 💻 Text-Based Flow 
-
-Start Function  
-   ↓  
-Check Base Condition?  
-   ↓  
- ┌───────────────┐  
- │               │  
-Yes             No  
- │               │  
- ↓               ↓  
-Return        Recursive Call  
-                 ↓  
-             Repeat Process 🔁  
+```mermaid
+graph TD
+    A[Start Function] --> B{Base Condition?}
+    B -- Yes --> C[Return Result]
+    B -- No --> D[Recursive Call]
+    D --> B
+```
 
 ---
 
-## ⚡ Simple Explanation
+# 🧩 Example Visualization 🎯
 
-- 🔹 If **base condition is met** → function stops ✅  
-- 🔹 Otherwise → function calls itself 🔁  
-- 🔹 This continues until it reaches the base case 🎯  
+```mermaid
+graph TD
+    A[f3] --> B[f2]
+    B --> C[f1]
+    C --> D[f0]
+    D --> E[Return]
+```
 
 ---
-
 
 # ⚙️ How to Use 🛠️
 1. Clone repo 📥
@@ -121,3 +113,4 @@ Feel free to connect! 😊
 ---
 
 # 🎉 Happy Coding! 🚀🐍🔥
+
