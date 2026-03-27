@@ -59,27 +59,36 @@ Python_Advance_Complete_Tutorial_Part_2/
 ---
 # 🧠 Recursion Flowchart 📊
 
-Start Function
-      ↓
-Base Condition?
-   ↙      ↘
- Yes       No
- ↓         ↓
-Return   Recursive Call
-             ↓
-        (Repeat)
 
-# 🧩 Example Visualization 🎯
-
-```mermaid
-graph TD
-    A[f(3)] --> B[f(2)]
-    B --> C[f(1)]
-    C --> D[f(0)]
-    D --> E[Return]
-```
+![Recursion Flowchart](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Recursion-example.svg/512px-Recursion-example.svg.png)
 
 ---
+
+## 💻 Text-Based Flow 
+
+Start Function  
+   ↓  
+Check Base Condition?  
+   ↓  
+ ┌───────────────┐  
+ │               │  
+Yes             No  
+ │               │  
+ ↓               ↓  
+Return        Recursive Call  
+                 ↓  
+             Repeat Process 🔁  
+
+---
+
+## ⚡ Simple Explanation
+
+- 🔹 If **base condition is met** → function stops ✅  
+- 🔹 Otherwise → function calls itself 🔁  
+- 🔹 This continues until it reaches the base case 🎯  
+
+---
+
 
 # ⚙️ How to Use 🛠️
 1. Clone repo 📥
